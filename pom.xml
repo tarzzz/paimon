@@ -678,6 +678,9 @@ under the License.
                         <exclude>paimon-python/pypaimon/sample/data/**</exclude>
                         <exclude>**/*.proto</exclude>
                         <exclude>**/Cargo*</exclude>
+                        <!-- Vendored third-party hugo-book theme (MIT, see LICENSE
+                             and licenses/LICENSE.hugo-book) -->
+                        <exclude>docs/themes/book/**</exclude>
                     </excludes>
                 </configuration>
             </plugin>
